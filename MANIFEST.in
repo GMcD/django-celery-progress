@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include celery_progress/static *
+recursive-include celery_progress/templatetags *
+recursive-include celery_progress/templates *
+

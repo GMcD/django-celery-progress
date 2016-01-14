@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.1.0'
+version = '0.2.0'
 
 setup(
     name='django-celery-progress',
@@ -10,16 +10,16 @@ setup(
     author='Rob Golding',
     author_email='rob@robgolding.com',
     license='BSD',
-    url='https://github.com/robgolding63/django-celery-progress',
+    url='https://github.com/winzard/django-celery-progress',
     download_url=(
-        'https://github.com/robgolding63/django-celery-progress/downloads'),
+        'https://github.com/winzard/django-celery-progress/downloads'),
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'celery',
     ],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 3 - Beta',
         'License :: OSI Approved :: BSD License',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: System :: Distributed Computing',
