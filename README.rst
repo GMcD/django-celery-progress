@@ -16,13 +16,21 @@ Installation
 
 Install via ``pip``::
 
-    pip install django-celery-progress
+    pip install git@github.com:GMcD/django-celery-progress.git
+
+Add to ``INSTALLED_APPS`` in settings.py::
+    'celery_progress',
+
+Configure ``urls``::
+
+    url(r'^', include('celery_progress.urls', namespace='celery_progress')),
 
 Usage
 -----
 
 Call ``set_progress()`` from within a Celery task::
 
+    import time
     from celery_progress import backend
 
     @app.task(bind=True)
