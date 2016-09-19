@@ -18,8 +18,8 @@ Install via ``pip``::
 
     pip install git@github.com:GMcD/django-celery-progress.git
 
-Add to ``INSTALLED_APPS`` in settings.py::
-    'celery_progress',
+Add to INSTALLED_APPS in ``settings.py``::
+    celery_progress
 
 Configure ``urls``::
 
